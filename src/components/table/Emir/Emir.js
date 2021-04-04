@@ -3,11 +3,12 @@ import Kapat from '../../svg/Kapat'
 import Convert from '../../svg/Convert'
 
 
+
 export default function Emir(props) {
     return (
         <div className="table-row">
-            <div className="table-column" style={{width: "8%"}}>
-                {props.emir}
+            <div className="table-column" style={{width: "8%",textAlign:"left", paddingLeft:"0.3rem"}}>
+                {props.emir} 
             </div>
             <div className="table-column" style={{width: "10%"}}>
                 {props.zaman}

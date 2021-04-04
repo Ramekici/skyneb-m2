@@ -71,16 +71,16 @@
     overflow: hidden;
     color: rgb(228, 228, 228);
     .ust{
-        padding: .01px;
+        padding: 0.01rem;
         height: 40%;
         width: 100%;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #1a4b5d;
         font-size: 0.1rem;
         display: flex;
         justify-content: space-between;
     }
     .alt{
-        padding: .01px;
+        padding: 0.01rem;
         margin-bottom: 0.01rem;
         height: 40%;
         width: 100%;

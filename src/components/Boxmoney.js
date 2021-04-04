@@ -48,12 +48,12 @@ export default function Boxmoney(props) {
             </div>
             <div className="alt-group">
                 <div className="ust">
-                    <span className="text-left-el"> Fark: <span className="text-bold text-white"> {fark.toFixed(2)} </span> </span>
-                    <span className="text-right-el"> <span className="text-bold text-white"> {moment().format('h:mm:ss')}</span> :Tarih </span>
+                    <span className="text-left-el" style={{paddingLeft:"0.1rem"}}> Fark: <span className="text-bold text-white"> {fark.toFixed(2)} </span> </span>
+                    <span className="text-right-el" style={{paddingRight:"0.1rem"}}> <span className="text-bold text-white"> {moment().format('h:mm:ss')}</span> :Tarih </span>
                 </div>
                 <div className="alt">
-                    <span className="text-left-el"> Düşük: <span className="text-bold text-white">{props.dusuk} </span> </span>
-                    <span className="text-right-el"> <span className="text-bold text-white"> {props.yuksek} </span> :Yüksek </span>
+                    <span className="text-left-el" style={{paddingLeft:"0.1rem"}}> Düşük: <span className="text-bold text-white">{props.dusuk} </span> </span>
+                    <span className="text-right-el" style={{paddingRight:"0.1rem"}}> <span className="text-bold text-white"> {props.yuksek} </span> :Yüksek </span>
                 </div>
             </div>
         </div>
