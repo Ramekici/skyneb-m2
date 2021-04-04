@@ -1,0 +1,21 @@
+.button-skyneb{
+    cursor: pointer;
+    padding: 0.1rem 1rem;
+    margin: 0;
+    background-color: inherit;
+    color: rgb(173, 171, 171);
+    border: .1px solid #373b3e;
+    font-size: 0.5rem;
+    &.active{
+        color: #d49e52;
+        background-color: #161e25;
+        border: none;
+    }
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+    &:focus{
+        outline: none;
+    }
+}

@@ -2,7 +2,9 @@ import React from 'react'
 
 export default function ArrowDown(props) {
     return (
-        <svg viewBox="0 0 32 32"
+        <svg 
+            viewBox="0 0 32 32"
+            className={props.className}
             width="12"
             height="12"
             xmlns="http://www.w3.org/2000/svg"

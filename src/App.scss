@@ -1,0 +1,88 @@
+.container{
+  width: 100vw;
+}
+
+.row{
+  display: flex;
+  flex-flow: wrap;
+
+}
+
+.col-left{
+  width: 33%;
+  background-color: #1d2120;
+  // overflow-Y: scroll;
+  // scrollbar-width: thin;
+  // scroll-behavior: smooth;
+  // scroll-margin: 0;
+  // scrollbar-color: rgb(5, 5, 110);
+  // scroll-padding: 0;
+}
+
+.box-group{
+  display: flex;
+  flex-flow: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+
+.col-right{
+  width: 66%;
+}
+
+.p-1{
+  padding: 0.25rem;
+}
+
+.pl-1{
+  padding-left: 0.25rem;
+}
+
+.text-gray{
+  color: rgb(185, 183, 183);
+}
+
+.sembol{
+  display: flex;
+  justify-content: space-between;
+  padding-right: .25rem;
+  background-color: #2a2d34;
+}
+
+.button-group-icon{
+  display: flex;
+  justify-content: flex-end;
+  padding: .1rem;
+  background-color: inherit;
+  .btn-icon{
+    border:none;
+    cursor: pointer;
+    background-color: inherit;
+    &:focus{
+      outline: none;
+    }
+  }
+}
+
+
+@media screen and (max-width: 960px){
+  .col-left{
+    width: 50%;
+  }
+  .col-right{
+    width: 50%;
+  }
+
+}
+
+
+@media screen and (max-width: 480px){
+  .col-left{
+    width: 98%;
+  }
+  .col-right{
+    width: 98%;
+  }
+
+}

@@ -27,21 +27,23 @@
 }
 
 .table-column{
-    width: 10%;
     font-size: 0.45rem;
     color: white;
     background-color: inherit;
+    text-align: center;
     .btn-group{
         display: flex;
+        padding-right: 1rem;
+        align-items: flex-end;
+        justify-content: flex-end;
         .btn{
+            align-self: center;
             background-color: inherit;
             border: none;
             font-size: 0.5rem;
             color: white;
             cursor: pointer;
-            &.active{
-                color: #d49e52;
-            }
+            
         }
     }
 }
