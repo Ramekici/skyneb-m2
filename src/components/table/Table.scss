@@ -1,0 +1,49 @@
+.table{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #161e25;
+}
+
+.table-row{
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    border-bottom: 0.1px solid #373b3e;
+    
+}
+.table-nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #232a31;
+    width: 100%;
+}
+.table-nav{
+    text-align: left;
+    color: white;
+    font-size: 0.55rem;
+    padding-right: 0.5rem;
+    
+}
+
+.table-column{
+    width: 10%;
+    font-size: 0.45rem;
+    color: white;
+    background-color: inherit;
+    .btn-group{
+        display: flex;
+        .btn{
+            background-color: inherit;
+            border: none;
+            font-size: 0.5rem;
+            color: white;
+            cursor: pointer;
+            &.active{
+                color: #d49e52;
+            }
+        }
+    }
+}
+
+
